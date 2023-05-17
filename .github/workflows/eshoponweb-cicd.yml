@@ -6,7 +6,7 @@ name: eShopOnWeb Build and Test
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-az400-eshoponweb-ckpo
-  LOCATION: useast
+  LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 7cc7b8cf-f557-42bd-8df1-eb9b4fa3393f
   WEBAPP-NAME: az400-webapp-ckpo
